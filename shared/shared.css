@@ -1,0 +1,52 @@
+* {
+    cursor: url(cursor/cursor.cur), pointer;
+}
+
+
+body {
+	background-image: url(../gif/stars.gif); 
+	background-blend-mode: exclusion;
+	background-color: black;
+    color: white; 
+    font-family: "Lucida Console", monospace;
+	text-align: center;
+	font-size: 15px;
+}
+
+a {
+	display: block;
+	font-size: 20px;
+	padding: 10px;
+	color: pink;
+	font-weight: bold;
+	/* color: pink; */
+	cursor: url(cursor/hand-point.cur), pointer;
+	font-style: normal;
+	text-decoration: none;
+	a { img { display: none; } }
+}
+
+a:hover { 
+	background-color: transparent; 
+	filter: drop-shadow(0 0 2rem white); 
+	color: white;
+}
+
+summary {
+	font-size: 30px;
+	font-style: bold;
+	cursor: url(cursor.png), auto;
+	color: lavender; 
+	filter: drop-shadow(0 0 1rem blue);
+	list-style: none;
+}
+
+.summary2 {
+	color: rgb(157, 157, 255);
+	font-size: 25px;
+}
+
+.button { cursor: url(cursor.png), auto; }
+
+
+.local { display: none; }
